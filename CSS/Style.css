@@ -6,6 +6,7 @@ body {
 
 p {
   line-height: 2;
+  font-family: 'Montserrat', sans-serif;
 }
 
 hr {
@@ -101,13 +102,17 @@ h3 {
   float: left;
   margin: 10px 30px auto 0;
 }
-.intro{
+
+.intro {
   width: 40%;
   margin: 40px auto 60px;
+  font-family: 'Montserrat', sans-serif;
 }
+
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn {
