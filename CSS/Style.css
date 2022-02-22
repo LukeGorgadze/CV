@@ -1,7 +1,8 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: Century Gothic, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 p {
@@ -10,65 +11,110 @@ p {
 }
 
 hr {
-  border: dotted #b2bec3 6px;
+  border: dotted #0984e3 6px;
+  background-color: white;
   border-bottom: 0;
-  width: 10%;
-  margin: 100px auto;
+  width: 25%;
+  margin: 80px auto;
 }
 
 a {
-  color: #0984e3;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EAF6F6
+  color: #0984e3;
 }
 
 h1 {
-  color: #0984e3;
+  color: #EAF6F6;
   margin-top: 0;
   font-family: 'Sacramento', cursive;
-  font-size: 5.625rem;
-  margin: 50px auto 0 auto;
+  font-size: 4rem;
+  margin: 0px auto 0 auto;
   line-height: 2;
+}
+.pro{
+  color:#EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  line-height: 2;
+  padding-bottom: 10px;
 }
 
 h2 {
-  color: #0984e3;
+  color: #74b9ff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: normal;
   line-height: 2;
   padding-bottom: 10px;
 }
 
 h3 {
-  color: #0984e3;
+  color: #74b9ff;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
+  font-size: 1rem;
 }
 
 .top-section {
   background-color: #74b9ff;
   position: relative;
-  padding-top: 10px;
+  padding-top: 0;
   padding-bottom: 20px;
+}
+.top-sec{
+  width: 60%;
+  margin: 0 auto;
+}
+.navbar{
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 .middle-container {
-  padding: 10px 0 50px 0;
+  width: 60%;
+  margin: 10px auto;
 }
+.skill-set{
+  margin-top:50px;
+}
+.skill-text{
+  padding:20px;
+
+}
+.skill-header{
+  font-size: 1.2rem;
+  padding-top: 40px;
+}
+.skill-row-image {
+  width: 20%;
+  margin: 10px auto;
+}
+
 
 .bottom-container {
   background-color: #74b9ff;
   padding: 50px 0 20px;
 }
+.bt-cont-row{
+  width: 60%;
+  margin: 0 auto;
+}
+.top-info{
+  padding-top: 0;
+}
 
 .Panda {
-  width: 25%;
+  width: 40%;
+  padding-top: 20px;
 }
 
 .top-cloud {
@@ -97,11 +143,7 @@ h3 {
   margin: 0 auto;
 }
 
-.skill-row-image {
-  width: 20%;
-  float: left;
-  margin: 10px 30px auto 0;
-}
+
 
 .intro {
   width: 40%;
@@ -128,6 +170,7 @@ h3 {
 }
 
 .btn:hover {
+  color:white;
   background: #3cb0fd;
   text-decoration: none;
 }
@@ -136,4 +179,5 @@ h3 {
   color: #EAF6F6;
   font-family: 'Montserrat', sans-serif;
   padding: 20px 0;
+  font-weight: 600;
 }
