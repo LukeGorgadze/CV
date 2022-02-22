@@ -37,14 +37,6 @@ h1 {
   margin: 0px auto 0 auto;
   line-height: 2;
 }
-.pro{
-  color:#EAF6F6;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
-  line-height: 2;
-  padding-bottom: 10px;
-}
-
 h2 {
   color: #74b9ff;
   font-family: 'Montserrat', sans-serif;
@@ -60,12 +52,21 @@ h3 {
   font-weight: normal;
   font-size: 1rem;
 }
+.pro{
+  color:#EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  line-height: 2;
+  padding-bottom: 10px;
+}
+
+
 
 .top-section {
   background-color: #74b9ff;
   position: relative;
   padding-top: 0;
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
 }
 .top-sec{
   width: 60%;
@@ -117,19 +118,6 @@ h3 {
   padding-top: 20px;
 }
 
-.top-cloud {
-  width: 15%;
-  position: absolute;
-  right: 10px;
-  top: 30px;
-}
-
-.bottom-cloud {
-  width: 15%;
-  position: absolute;
-  left: 10px;
-  bottom: 50px;
-}
 
 .skill-row {
   width: 60%;
